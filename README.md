@@ -1,6 +1,13 @@
-# Assignment 2 — Sample Data & Kafka Producer
-**Streaming Data Analytics | Real-Time E-Commerce Customer Behaviour & Marketing Analytics**
-Student: Awantika Kholia (065060) | Faculty: Prof. Aditya Dua
+## Assignment 3: Dashboard for Analysis of Consumed Data
+Tool: Grafana | Storage: PostgreSQL | Streaming: Apache Kafka
+
+Flow: producer.py -> Kafka topics -> consumer.py -> PostgreSQL -> Grafana
+
+How to run:
+1. Start the Docker containers (Kafka, Postgres, Grafana)
+2. python producer.py
+3. python consumer.py
+4. Open http://localhost:3000 and import the dashboard JSON from this repo
 
 ---
 
